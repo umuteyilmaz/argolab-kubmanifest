@@ -15,7 +15,7 @@ spec:
         app: argo-demo
     spec:
       containers:
-      - image: umuteyilmaz/argolab:4
+      - image: umuteyilmaz/argolab:latest
         name: argo-demo
         resources:
          limits:
